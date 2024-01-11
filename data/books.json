@@ -9,6 +9,26 @@
       "id": 2,
       "title": "Book 2",
       "author": "Author 2"
+    },
+    {
+      "title": "titleBaru",
+      "author": "bejo orepmu",
+      "id": 3
+    },
+    {
+      "title": "Ethical hacking",
+      "author": "bejo pakis",
+      "id": 4
+    },
+    {
+      "title": "roulette",
+      "author": "Setiar",
+      "id": 5
+    },
+    {
+      "title": "tahucampur",
+      "author": "luky",
+      "id": 6
     }
   ]
 }
