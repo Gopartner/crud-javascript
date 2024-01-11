@@ -1,0 +1,24 @@
+{
+  "name": "mylibraryapp",
+  "version": "1.0.0",
+  "description": "belajar oop javascript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env nodemon index.js --host=localhost",
+    "start": "node index.js --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oop-javascript"
+  ],
+  "author": "yudibilly",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.2",
+    "yargs": "^17.7.2"
+  }
+}
