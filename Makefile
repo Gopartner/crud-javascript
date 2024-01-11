@@ -1,7 +1,7 @@
 # MyLibraryApp Makefile
 
 # Variabel
-REPO = https://github.com/username/MyLibraryApp.git
+REPO = https://github.com/Gopartner/crud-javascript
 COMMIT_MSG = "commit pada $(shell date +'%H:%M:%S-%d-%m-%Y')"
 
 # Target: help
@@ -35,7 +35,7 @@ help:
 		5) \
 			git add .; \
 			git commit -m $(COMMIT_MSG); \
-			git push -u origin main; \
+			git push -u origin Master; \
 			echo "Changes committed and pushed with dynamic timestamped commit message."; \
 			;; \
 		*) \
