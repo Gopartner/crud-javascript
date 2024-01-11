@@ -7,11 +7,13 @@ COMMIT_MSG = "commit pada $(shell date +'%H:%M:%S-%d-%m-%Y')"
 # Target: help
 help:
 	@echo "Available targets:"
-	@echo "  1           : Create a new branch (git branch)"
-	@echo "  2           : Switch to a branch (git checkout)"
-	@echo "  3           : View commit log (git log)"
-	@echo "  4           : Compare local and remote repositories (git fetch)"
-	@echo "  5           : Finishing - Add, commit, and push changes with a dynamic timestamped commit message."
+	@echo "  1  : Create a new branch (git branch)"
+	@echo "  2  : Switch to a branch (git checkout)"
+	@echo "  3  : View commit log (git log)"
+	@echo "  4  : Compare local & remote repo (git fetch)"
+	@echo "  5  : Finishing - Add, commit, and push"
+	
+	@echo "changes with a dynamic timestamped commit message."
 	@echo ""
 	@read -p "Choose an action (1-5): " choice; \
 	case $$choice in \
