@@ -1,4 +1,4 @@
-# MyLibraryApp
+# CRUD APP
 
 ## Fitur Aplikasi
 1. **Mengelola Daftar Buku:** Aplikasi ini memungkinkan pengguna untuk melihat, menambah, mengupdate, dan menghapus buku dari daftar.
@@ -11,7 +11,6 @@
 2. **JSON sebagai Database:** Data buku disimpan dalam format JSON pada file `books.json`.
 3. **Express Middleware:** Menerapkan middleware seperti `body-parser` untuk parsing data JSON.
 4. **Yargs dan Nodemon:** Menggunakan `yargs` untuk mengelola argumen baris perintah dan `nodemon` untuk memantau perubahan selama pengembangan.
-## =====================================
 
 ## Endpoint REST API
 1. **GET /books:** Mendapatkan daftar semua buku.
