@@ -1,7 +1,14 @@
 {
   "books": [
-    { "id": 1, "title": "Book 1", "author": "yudi billy" },
-    { "id": 2, "title": "Book 2", "author": "Author 2" }
+    {
+      "id": 1,
+      "title": "Updated Book",
+      "author": "Yudi billy"
+    },
+    {
+      "id": 2,
+      "title": "Book 2",
+      "author": "Author 2"
+    }
   ]
 }
-

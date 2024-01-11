@@ -49,9 +49,6 @@
      curl -X DELETE http://localhost:3000/books/1
      ```
 
-
-
-## =================
 ## Cara Clone Repository
 1. **Clone Repository:**
    ```bash
