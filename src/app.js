@@ -6,6 +6,7 @@ const networkInterfaces = os.networkInterfaces();
 const path = require('path');
 const yargs = require('yargs');
 const nodemon = require('nodemon');
+const morgan = require('morgan');
 
 const BookService = require('./services/BookService');
 const BookController = require('./controllers/BookController');
@@ -17,10 +18,19 @@ const PORT = 3000;
 // Middleware untuk parsing JSON
 app.use(bodyParser.json());
 
+// Gunakan morgan untuk pencatatan permintaan HTTP
+app.use(morgan('dev'));
+
 // Path untuk data buku
 const dataPath = path.join(__dirname, '..', 'data', 'books.json');
 const bookService = new BookService(dataPath);
 const bookController = new BookController(bookService);
+
+// Route untuk halaman default
+app.get('/', (req, res) => {
+  const indexPath = path.join(__dirname, 'views', 'index.html');
+  res.sendFile(indexPath);
+});
 
 // Rute untuk mendapatkan daftar buku
 app.get('/books', (req, res) => {
