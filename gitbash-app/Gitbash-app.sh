@@ -30,6 +30,12 @@ echo -e "Menu Item: $colorized_menu_item"
 
 ## ========== endfor function color ==========
 
+## untuk pesan commit dengan waktu dinamis
+commit_with_dynamic_comment() {
+  local current_time=$(date +"%H:%M:%S-%m-%d-%Y")
+  git commit -m "Commit pada $current_time"
+}
+
 while true; do
     echo -e "\nTarget yang Tersedia:"
     echo "  1  : View status (git status)"
@@ -59,7 +65,9 @@ while true; do
         6) git branch ;;
         7) git checkout ;;
         8)
-          git add . && git commit -m "commit " && git push -u origin Master
+          git add .
+          commit_with_dynamic_comment
+          git push -u origin Master
             echo -e "\nFinishing - Add, commit, and push..."
             # Tambahkan perintah sesuai kebutuhan
             echo -e "Finishing complete.\n" ;;

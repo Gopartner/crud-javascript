@@ -64,11 +64,10 @@
    curl -X DELETE http://localhost:3000/books/1
    ```
 
-## Cara Clone Repository
 1. **Clone Repository:**
-   - ```bash
-   git clone https://github.com/username/MyLibraryApp.git
-   ```
+- ```bash
+git clone https://github.com/username/MyLibraryApp.git
+```
 
 
 1. **Instalasi Dependensi:**
