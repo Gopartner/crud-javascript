@@ -65,12 +65,12 @@
    ```
 
 1. **Clone Repository:**
-- ```bash
-git clone https://github.com/username/MyLibraryApp.git
+- clone
+```cmd
+https://github.com/Gopartner/crud-javascript.git
 ```
 
-
-1. **Instalasi Dependensi:**
+2. **Instalasi Dependensi:**
    ```bash
    npm install
    ```
