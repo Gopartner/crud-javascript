@@ -55,19 +55,19 @@
 
 5. **DELETE /books/:id:** Menghapus buku berdasarkan ID.
    - Endpoint URL:
-     ```bash
-   `http://localhost:3000/books/:id`
-     ```
+   - ```bash
+   http://localhost:3000/books/:id
+   ```
    - Contoh Penggunaan Curl:
-     ```bash
-     curl -X DELETE http://localhost:3000/books/1
-     ```
+   - ```bash
+   curl -X DELETE http://localhost:3000/books/1
+   ```
 
 ## Cara Clone Repository
 1. **Clone Repository:**
-   ```bash
+   - ```bash
    git clone https://github.com/username/MyLibraryApp.git
-
+   ```
 
 
 1. **Instalasi Dependensi:**
