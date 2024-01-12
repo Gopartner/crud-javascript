@@ -1,4 +1,4 @@
-# MyLibraryApp Makefile
+# Makefile for project crud-javascript
 
 # Variabel
 REPO = https://github.com/Gopartner/crud-javascript
@@ -12,8 +12,8 @@ help:
 	@echo "  3  : View commit log (git log)"
 	@echo "  4  : Compare local & remote repo (git fetch)"
 	@echo "  5  : Finishing - Add, commit, and push"
-	
-	@echo "changes with a dynamic timestamped commit message."
+	@echo "==============================================="
+	@echo ""
 	@echo ""
 	@read -p "Choose an action (1-5): " choice; \
 	case $$choice in \

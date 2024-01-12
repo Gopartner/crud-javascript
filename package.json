@@ -1,11 +1,12 @@
 {
-  "name": "mylibraryapp",
+  "name": "crud-javascript",
   "version": "1.0.0",
   "description": "belajar oop javascript",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env nodemon index.js --host=localhost",
     "start": "node index.js --host=localhost",
+    "mygit": "./gitbash-app/Gitbash-app.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
