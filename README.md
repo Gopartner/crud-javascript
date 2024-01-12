@@ -46,7 +46,7 @@
 4. **PUT /books/:id:** Mengupdate buku berdasarkan ID.
    - Endpoint URL:
      ```bash
-   `http://localhost:3000/books/:id`
+   http://localhost:3000/books/:id
      ```
    - Contoh Penggunaan Curl:
      ```bash
