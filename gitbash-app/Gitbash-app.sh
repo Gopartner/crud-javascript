@@ -1,7 +1,5 @@
 #!/bin/bash
 
-## ========== Front of function color ==========
- # Fungsi untuk memberikan warna pada string
 color() {
   local text="$1"
   local color_code="$2"
@@ -28,6 +26,8 @@ menu_item="Compare local & remote repo (git fetch)"
 colorized_menu_item=$(color "$menu_item" 2)
 echo -e "Menu Item: $colorized_menu_item"
 
+echo "$(color 'Hello World' 1)"
+
 ## ========== endfor function color ==========
 
 ## untuk pesan commit dengan waktu dinamis
@@ -37,19 +37,22 @@ commit_with_dynamic_comment() {
 }
 
 while true; do
-    echo -e "\nTarget yang Tersedia:"
-    echo "  1  : View status (git status)"
-    echo "  2  : Stage changes (git add)"
-    echo "  3  : View commit log (git log)"
-    echo "  4  : Compare local & remote repo (git fetch)"
-    echo "  5  : Merge branches (git merge)"
-    echo "  6  : Create a new branch (git branch)"
-    echo "  7  : Switch to a branch (git checkout)"
-    echo "  8  : Finishing - Add, commit, and push"
-    echo "  9  : Discard changes in working directory (git restore)"
-    echo " 10  : Create and apply patches (git diff and git apply)"
-    echo " 11  : Undo last commit (git reset)"
-    echo "  0  : Exit"
+  clear
+
+  echo -e "\nTarget yang Tersedia:"
+  echo "  $(color 1 '1')  : View status (git status)"
+  echo "  $(color 2 '2')  : Stage changes (git add)"
+  echo "  $(color 3 '3')  : View commit log (git log)"
+  echo "  $(color 4 '4')  : Compare local & remote repo (git fetch)"
+  echo "  $(color 5 '5')  :  Merge branches (git merge)"
+  echo "  $(color 6 '6')  : Create a new branch (git branch)"
+  echo "  $(color 7 '7')  : Switch to a branch (git checkout)"
+  echo "  $(color 8 '8')  : Finishing - Add, commit, and push"
+  echo "  $(color 9 '9')  : Discard changes in working directory (git restore)"
+  echo "  $(color 10 '10') : Create and apply patches (git diff and git apply)"
+  echo "  $(color 11 '11') : Undo last commit (git reset)"
+  echo "  $(color 0 '0')  : Exit"
+
 
     read -p "Masukkan nomor target: " choice
 

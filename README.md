@@ -16,7 +16,7 @@
 1. **GET /books:** Mendapatkan daftar semua buku.
    - Endpoint URL:
     ```bash
-    `http://localhost:3000/books`
+     http://localhost:3000/books
     ```
    - Contoh Penggunaan dengan Curl
      ```bash
