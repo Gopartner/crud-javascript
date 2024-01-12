@@ -53,7 +53,8 @@
      curl -X PUT -H "Content-Type: application/json" -d '{"title":"Updated Book","author":"Updated Author"}' http://localhost:3000/books/1
      ```
 
-5. **DELETE /books/:id:** Menghapus buku berdasarkan ID.
+5. **DELETE /books/:id:**
+  *Menghapus buku berdasarkan ID.*
    - Endpoint URL:
    - ```bash
    http://localhost:3000/books/:id
