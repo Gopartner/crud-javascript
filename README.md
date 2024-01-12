@@ -26,7 +26,7 @@
 2. **GET /books/:id:** Mendapatkan detail buku berdasarkan ID.
    - Endpoint URL:
      ```bash
-   `http://localhost:3000/books/:id`
+     http://localhost:3000/books/:id
      ```
    - Contoh Penggunaan Curl:
      ```bash
