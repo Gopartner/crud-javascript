@@ -14,36 +14,51 @@
 
 ## Endpoint REST API
 1. **GET /books:** Mendapatkan daftar semua buku.
-   - Endpoint URL: `http://localhost:3000/books`
-   - Contoh Penggunaan:
+   - Endpoint URL:
+    ```bash
+    `http://localhost:3000/books`
+    ```
+   - Contoh Penggunaan dengan Curl
      ```bash
      curl http://localhost:3000/books
      ```
 
 2. **GET /books/:id:** Mendapatkan detail buku berdasarkan ID.
-   - Endpoint URL: `http://localhost:3000/books/:id`
-   - Contoh Penggunaan:
+   - Endpoint URL:
+     ```bash
+   `http://localhost:3000/books/:id`
+     ```
+   - Contoh Penggunaan Curl:
      ```bash
      curl http://localhost:3000/books/1
      ```
 
 3. **POST /books:** Menambahkan buku baru.
-   - Endpoint URL: `http://localhost:3000/books`
-   - Contoh Penggunaan:
+   - Endpoint URL:
+      ```bash
+     `http://localhost:3000/books`
+      ```
+   - Contoh Penggunaan Curl:
      ```bash
      curl -X POST -H "Content-Type: application/json" -d '{"title":"New Book","author":"New Author"}' http://localhost:3000/books
      ```
 
 4. **PUT /books/:id:** Mengupdate buku berdasarkan ID.
-   - Endpoint URL: `http://localhost:3000/books/:id`
-   - Contoh Penggunaan:
+   - Endpoint URL:
+     ```bash
+   `http://localhost:3000/books/:id`
+     ```
+   - Contoh Penggunaan Curl:
      ```bash
      curl -X PUT -H "Content-Type: application/json" -d '{"title":"Updated Book","author":"Updated Author"}' http://localhost:3000/books/1
      ```
 
 5. **DELETE /books/:id:** Menghapus buku berdasarkan ID.
-   - Endpoint URL: `http://localhost:3000/books/:id`
-   - Contoh Penggunaan:
+   - Endpoint URL:
+     ```bash
+   `http://localhost:3000/books/:id`
+     ```
+   - Contoh Penggunaan Curl:
      ```bash
      curl -X DELETE http://localhost:3000/books/1
      ```
@@ -58,4 +73,9 @@
 1. **Instalasi Dependensi:**
    ```bash
    npm install
-
+   ```
+   **Tool bash ada di folder gitbash-app
+   ##jalanka npm run mygit untuk ginakan tool
+   ```bash
+   npm run mygit
+   ```
