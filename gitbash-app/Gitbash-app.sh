@@ -33,7 +33,7 @@ echo -e "Menu Item: $colorized_menu_item"
 ## untuk pesan commit dengan waktu dinamis
 commit_with_dynamic_comment() {
   local current_time=$(date +"%H:%M:%S-%m-%d-%Y")
-  git commit -m "Commit pada $current_time"
+  git commit -m "Commit on: $current_time"
 }
 
 while true; do
